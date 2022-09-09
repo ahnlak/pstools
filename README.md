@@ -16,7 +16,7 @@ This does a similar job to the excellent online tool on the
 [PicoSystem wiki](http://wiki.picosystem.com/en/tools/image-converter), but with a couple of
 crucial default differences
 
-* it generates both the raw image data (a `colour_t` array named `<imagename>_data`)
+* it generates both the raw image data (a `color_t` array named `<imagename>_data`)
 * it declares this as `const`, so that the data isn't loaded into RAM, allowing for larger
   spritesheets
 * it declares an appropriate `buffer_t` structure (named `<imagename>_buffer`) that can be
